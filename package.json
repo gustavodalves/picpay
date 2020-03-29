@@ -1,0 +1,33 @@
+{
+  "name": "picpayproject",
+  "version": "1.0.0",
+  "description": "A prototype of integrating Node JS apps with JWT",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect-brk server.js"
+  },
+  "keywords": [
+    "node",
+    "jwt",
+    "auth"
+  ],
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^3.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-hbs": "^2.3.1",
+    "fs": "0.0.1-security",
+    "hbs": "^4.1.0",
+    "json-server": "^0.16.1",
+    "jsonwebtoken": "^8.3.0",
+    "querystring": "^0.2.0"
+  }
+}
